@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Collections.Generic;
 namespace Gradebook
 {
     class MainClass
@@ -11,7 +11,8 @@ namespace Gradebook
             Console.WriteLine(x + y);
 
             string[] passtimers = {"Music", "Movies", "Cards", "Checkers"};
-
+            List<double> grades = new() { 32.323, 54.23 };
+            grades.Add(32.323);
             //for(int i=0; i < passtimers.Length - 1; i++)
             //{
             //    Console.WriteLine(passtimers[i]);
